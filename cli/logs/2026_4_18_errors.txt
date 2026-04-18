@@ -1,3 +1,6 @@
 [2026-04-18 15:15:50.949942 - errors] INFO: No search results for: bcjdbcjdbcjdbcjdbcjdbcjdbcjd
 [2026-04-18 15:16:11.764176 - errors] INFO: No search results for: bcjdbcjdbcjdbcjdbcjdbcjdbcjd
 [2026-04-18 15:21:38.837667 - errors] INFO: No search results for: bcjdbcjdbcjdbcjdbcjdbcjdbcjd 
+[2026-04-18 15:22:30.693095 - errors] INFO: No search results for: bcjdbcjdbcjdbcjdbcjdbcjdbcjd 
+[2026-04-18 15:31:05.941685 - errors] INFO: No search results for: bcjdbcjdbcjdbcjdbcjdbcjdbcjd 
+[2026-04-18 15:42:04.560440 - errors] WARNING: ClientException with SocketException: Failed host lookup: 'en.wikg' (OS Error: 無法識別這台主機。, errno = 11001), uri=https://en.wikg/w/api.php?action=opensearch&format=json&search=blahblahblahblah 
