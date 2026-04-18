@@ -43,6 +43,11 @@ class SearchCommand extends Command {
     try {
       final SearchResults results = await search(args.commandArg!);
 
+      if (results.results.isEmpty) {
+        logger.info('No search results for: ${args.commandArg}');
+        return 'No results found for "${args.commandArg}"';
+      }
+
       if (args.flag('im-feeling-lucky')) {
         final title = results.results.first.title;
         final Summary article = await getArticleSummaryByTitle(title);
